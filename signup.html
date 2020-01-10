@@ -77,12 +77,13 @@
     <link href="/Styles/signup.css" rel="stylesheet" />
   </head>
   <body class="text-center">
-    <form class="form-signin">
+      
+    <form class="form-signin" action="/" method="POST">
      <img class="mb-4" height="300" width="300" alt="Welcome please fill in the fields below" src="/images/welcome.jpg" title="Photo by Mabel Amber from Pexels">
-      <h1 class="h3 mb-3 font-weight-normal">Signup to my newsletter</h1>
-      <input type="text" class="form-control top" placeholder="First name" required autofocus/>
-      <input type="text" class="form-control middle" placeholder="Last name"required/>
-      <input type="email" class="form-control bottom" placeholder="Email address"required/>
+      <h1 class="h4 mb-3 font-weight-normal">Sign Up to My Newsletter!</h1>
+      <input type="text" class="form-control top"name="firstName" placeholder="First name" required autofocus/>
+      <input type="text" class="form-control middle" name="lastName" placeholder="Last name"required/>
+      <input type="email" class="form-control bottom" name="email" placeholder="Email address"required/>
 
       <button class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
       <p class="mt-5 mb-3 text-muted">&copy; Justin Woods 2020</p>
